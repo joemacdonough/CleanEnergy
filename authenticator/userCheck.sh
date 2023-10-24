@@ -5,4 +5,5 @@ while true; do
     filename="sessions-$epochtime"
     #echo "$filename"
     ssh user@ip echo $output > ./$filename
+    sleep 180  # Sleep for 3 minutes (180 seconds)
 done
