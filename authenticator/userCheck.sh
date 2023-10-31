@@ -10,4 +10,3 @@ do
         ssh auth@100.64.2.85 pwd
         sleep 30
 done    
-
